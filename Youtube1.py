@@ -49,7 +49,7 @@ Youtube_logo = """
 Anime.Fade(text=Center.Center(Youtube_logo), color=Colors.black_to_green, mode=Colorate.Vertical, time=3)
 
 print ( Center . XCenter ("Bienvenue sur Youtube.exe"))
-print ( Center . XCenter ("    ! Xerox ' 33#8329"))
+print ( Center . XCenter ("    ! XeRox ツ#8329"))
 print(Fore.LIGHTBLACK_EX + "[+] License : MIT License")
 
 link = Write.Input("\n\n\nEntrez le lien de la vidéo youtube : ",Colors.green, interval=0.005, input_color=Colors.white)
@@ -76,7 +76,7 @@ try:
         except ValueError:
             print("Erreur, veuillez entrer un nombre")
     elif download == 'n':
-        Write.Print("\nDéconnéction",Colors.green, interval=0.09)
+        Write.Print("\nDeconnexion...",Colors.green, interval=0.09)
         Write.Print("...",Colors.green, interval=0.1)
         exit
 except KeyboardInterrupt:
